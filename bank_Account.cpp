@@ -53,7 +53,7 @@ int main()
 
 void showBalance(double balance)
 {
-    cout << "Your balance is:  ₹ " << setprecision(2) << fixed << balance << '\n'; //The setprecision(2) function is used to control the number of digits that are displayed for floating-point numbers when outputting them with cout.
+    cout << "Your balance is: Rs " << setprecision(2) << fixed << balance << '\n'; //The setprecision(2) function is used to control the number of digits that are displayed for floating-point numbers when outputting them with cout.
 }
 
 double deposit()
